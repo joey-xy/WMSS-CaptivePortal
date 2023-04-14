@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Free Wi-Fi</title>
+        <link href="./styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body style="background-image: url(./gallery/crumpled-paper.png);">
+        <div class="password-form">
+            <img src="./gallery/freewifi.png"/>
+            <h class="form-title">Free Wi-Fi Login</h>	
+            <div id="password-container">
+                <div id="username-input-container">
+            	    <img src="./gallery/username.png" class="icon">
+            	    <input type="text" id="username-field" placeholder="Enter Username">
+            	</div>
+                <div id="password-input-container">
+                    <img src="./gallery/wifi-password.png" class="icon">
+                    <input type="password" id="password-field" class="input-field" name="password" placeholder="Enter  Wi-Fi Password" required>
+                    <img src="./gallery/visibility-on.png" id="visibility" class="icon">
+                </div>   
+                <div id="password-response-container" style="display: none;">
+                    <img src="./gallery/error.png" class="icon" id="response-icon"/>
+                    <a id="response-message">Hello</a>
+                </div> 
+            </div>
+            <a id="submit-button">Login</a>
+        </div>
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>
