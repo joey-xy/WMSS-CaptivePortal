@@ -1,5 +1,4 @@
-# JONATHAN OWEN PANG
-# TP060491
+# back-end server
 
 from flask import Flask, render_template, request
 from flask_cors import CORS
